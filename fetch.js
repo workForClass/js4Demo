@@ -3,10 +3,12 @@
 const getBtn = document.getElementById("get-btn");
 const postBtn = document.getElementById("post-btn");
 
-// 1. Create a fetch GET method: create a function called getData
+// 1. Create a fetch GET method: create a function called getData using the following url (https://reqres.in/api/users?page=2)
 
-// 2. Create a fetch SET method: create a function called sendData
+
+// 2. Create a fetch SET method: create a function called sendData using the following url (https://reqres.in/api/users?page=2)
+
 
 // Buttons eventListeners
 getBtn.addEventListener("click", getData);
-// postBtn.addEventListener("click", sendData);
+postBtn.addEventListener("click", sendData);
